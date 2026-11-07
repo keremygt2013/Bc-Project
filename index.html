@@ -8,7 +8,26 @@
     <script src="translations.js"></script>
 </head>
 <body>
-<button onclick="setLanguage('tr')">Türkçe</button>
-<button onclick="setLanguage('en')">English</button>
+<div id="world-settings">
+    <button id="world-settings-btn" aria-label="Ayarlar">
+        ⚙
+    </button>
+
+    <div id="world-settings-menu">
+        <h3 world-data="settings">Ayarlar</h3>
+
+        <label world-data="language">Dil</label>
+        <select id="world-language">
+            <option value="tr">Türkçe</option>
+            <option value="en">English</option>
+        </select>
+
+        <label world-data="theme">Tema</label>
+        <select id="world-theme">
+            <option value="light">Açık</option>
+            <option value="dark">Koyu</option>
+        </select>
+    </div>
+</div>
 </body>
 </html>
