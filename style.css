@@ -1,66 +1,29 @@
-body {
-  background-color: #BF9DBD;
-}
+/* THEMES */
 
-:root {
+/* Lavender */
+[data-theme="lavender"] {
     --bg: #ffffff;
-    --text: #171717;
-    --panel: #f2f2f2;
+    --text: #222222;
+    --primary: #BF9DBD;
 }
 
+/* Dark */
 [data-theme="dark"] {
     --bg: #171717;
     --text: #ffffff;
-    --panel: #252525;
+    --primary: #BF9DBD;
 }
 
-body {
-    background: var(--bg);
-    color: var(--text);
-    transition: 0.2s;
+/* Reader */
+[data-theme="reader"] {
+    --bg: #EDE8D8;
+    --text: #38352F;
+    --primary: #A58D70;
 }
 
-#world-settings {
-    position: fixed;
-    right: 20px;
-    bottom: 20px;
-    z-index: 9999;
-}
-
-#world-settings-btn {
-    width: 48px;
-    height: 48px;
-    border: none;
-    border-radius: 50%;
-    font-size: 24px;
-    cursor: pointer;
-}
-
-#world-settings-menu {
-    display: none;
-    position: absolute;
-    bottom: 60px;
-    right: 0;
-    width: 220px;
-    padding: 18px;
-    border-radius: 12px;
-    background: var(--panel);
-    color: var(--text);
-    box-shadow: 0 5px 25px #0003;
-}
-
-#world-settings-menu.active {
-    display: block;
-}
-
-#world-settings-menu label {
-    display: block;
-    margin-top: 14px;
-}
-
-#world-settings-menu select {
-    width: 100%;
-    padding: 9px;
-    margin-top: 6px;
-    border-radius: 7px;
+/* Tech */
+[data-theme="tech"] {
+    --bg: #102C42;
+    --text: #E0F7FF;
+    --primary: #00D9FF;
 }
