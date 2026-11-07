@@ -1,29 +1,14 @@
-/* THEMES */
+[data-theme="default"] {
+    .creator {
+        color: #F54927;
+    }
 
-/* Lavender */
-[data-theme="lavender"] {
-    --bg: #ffffff;
-    --text: #222222;
-    --primary: #BF9DBD;
-}
+    .text {
+        color: #F54927;
+    }
 
-/* Dark */
-[data-theme="dark"] {
-    --bg: #171717;
-    --text: #ffffff;
-    --primary: #BF9DBD;
-}
-
-/* Reader */
-[data-theme="reader"] {
-    --bg: #EDE8D8;
-    --text: #38352F;
-    --primary: #A58D70;
-}
-
-/* Tech */
-[data-theme="tech"] {
-    --bg: #102C42;
-    --text: #E0F7FF;
-    --primary: #00D9FF;
+    .site {
+        background-color: #D984CF;
+        color: #FFFFFF;
+    }
 }
